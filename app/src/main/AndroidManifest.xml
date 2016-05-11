@@ -20,7 +20,9 @@
         <activity android:name=".PhaseOneLB1Activity" />
         <activity android:name=".PhaseOneUB1Activity" />
         <activity android:name=".PhaseOneLB2Activity" />
-        <activity android:name=".PhaseOneUB2Activity"></activity>
+        <activity android:name=".PhaseOneUB2Activity" />
+        <activity android:name=".PhaseOneARActivity" />
+        <activity android:name=".PhaseOneIntervalsActivity"></activity>
     </application>
 
 </manifest>

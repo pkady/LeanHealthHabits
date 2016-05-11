@@ -18,11 +18,20 @@ public class PhaseOneActivity extends AppCompatActivity implements View.OnClickL
         View phaseOneWkOneUBOneButton = this.findViewById(R.id.phase_one_wk_one_ub_one);
         phaseOneWkOneUBOneButton.setOnClickListener(this);
 
+        View phaseOneWkOneAROneButton = this.findViewById(R.id.phase_one_wk_one_ar_one);
+        phaseOneWkOneAROneButton.setOnClickListener(this);
+
         View phaseOneWkOneLBTwoButton = this.findViewById(R.id.phase_one_wk_one_lb_two);
         phaseOneWkOneLBTwoButton.setOnClickListener(this);
 
         View phaseOneWkOneUBTwoButton = this.findViewById(R.id.phase_one_wk_one_ub_two);
         phaseOneWkOneUBTwoButton.setOnClickListener(this);
+
+        View phaseOneWkOneARTwoButton = this.findViewById(R.id.phase_one_wk_one_ar_two);
+        phaseOneWkOneARTwoButton.setOnClickListener(this);
+
+        View phaseOneWkOneChoiceButton = this.findViewById(R.id.phase_one_wk_one_choice);
+        phaseOneWkOneChoiceButton.setOnClickListener(this);
     }
 
     public void onClick(View v) {
@@ -38,6 +47,11 @@ public class PhaseOneActivity extends AppCompatActivity implements View.OnClickL
                 startActivity(i);
                 break;
 
+            case R.id.phase_one_wk_one_ar_one:
+                i = new Intent(this, PhaseOneARActivity.class);
+                startActivity(i);
+                break;
+
             case R.id.phase_one_wk_one_lb_two:
                 i = new Intent(this, PhaseOneLB2Activity.class);
                 startActivity(i);
@@ -45,6 +59,15 @@ public class PhaseOneActivity extends AppCompatActivity implements View.OnClickL
 
             case R.id.phase_one_wk_one_ub_two:
                 i = new Intent(this, PhaseOneUB2Activity.class);
+                startActivity(i);
+                break;
+            case R.id.phase_one_wk_one_ar_two:
+                i = new Intent(this, PhaseOneARActivity.class);
+                startActivity(i);
+                break;
+
+            case R.id.phase_one_wk_one_choice:
+                i = new Intent(this, PhaseOneIntervalsActivity.class);
                 startActivity(i);
                 break;
 
