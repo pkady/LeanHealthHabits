@@ -12,6 +12,28 @@ public class PhaseOneActivity extends AppCompatActivity implements View.OnClickL
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_phase_one);
 
+        View phaseOneWkOneLBOneButton = this.findViewById(R.id.phase_one_wk_one_lb_one);
+        phaseOneWkOneLBOneButton.setOnClickListener(this);
+    }
+
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.phase_one_wk_one_lb_one:
+                Intent i = new Intent(this, PhaseOneLB1Activity.class);
+                startActivity(i);
+                break;
+
+            //Additional buttons go heere
+        }
+    }
+
+}
+/*
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_phase_one);
+
         View phaseOneButton = this.findViewById(R.id.phase_one_wk_one_lb_one);
         phaseOneButton.setOnClickListener(this);
     }
@@ -26,5 +48,4 @@ public class PhaseOneActivity extends AppCompatActivity implements View.OnClickL
             //Additional buttons go heere
         }
     }
-
-}
+*/
