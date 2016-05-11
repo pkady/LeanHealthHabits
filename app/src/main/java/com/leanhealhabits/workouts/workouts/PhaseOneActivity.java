@@ -14,12 +14,37 @@ public class PhaseOneActivity extends AppCompatActivity implements View.OnClickL
 
         View phaseOneWkOneLBOneButton = this.findViewById(R.id.phase_one_wk_one_lb_one);
         phaseOneWkOneLBOneButton.setOnClickListener(this);
+
+        View phaseOneWkOneUBOneButton = this.findViewById(R.id.phase_one_wk_one_ub_one);
+        phaseOneWkOneUBOneButton.setOnClickListener(this);
+
+        View phaseOneWkOneLBTwoButton = this.findViewById(R.id.phase_one_wk_one_lb_two);
+        phaseOneWkOneLBTwoButton.setOnClickListener(this);
+
+        View phaseOneWkOneUBTwoButton = this.findViewById(R.id.phase_one_wk_one_ub_two);
+        phaseOneWkOneUBTwoButton.setOnClickListener(this);
     }
 
     public void onClick(View v) {
+        Intent i;
         switch (v.getId()) {
             case R.id.phase_one_wk_one_lb_one:
-                Intent i = new Intent(this, PhaseOneLB1Activity.class);
+                i = new Intent(this, PhaseOneLB1Activity.class);
+                startActivity(i);
+                break;
+
+            case R.id.phase_one_wk_one_ub_one:
+                i = new Intent(this, PhaseOneUB1Activity.class);
+                startActivity(i);
+                break;
+
+            case R.id.phase_one_wk_one_lb_two:
+                i = new Intent(this, PhaseOneLB2Activity.class);
+                startActivity(i);
+                break;
+
+            case R.id.phase_one_wk_one_ub_two:
+                i = new Intent(this, PhaseOneUB2Activity.class);
                 startActivity(i);
                 break;
 

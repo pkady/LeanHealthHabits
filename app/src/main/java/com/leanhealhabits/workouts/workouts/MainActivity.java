@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
         setContentView(R.layout.activity_main);
         View exercisePhasesButton = this.findViewById(R.id.exercise_phases);
         exercisePhasesButton.setOnClickListener(this);
-
+//kkkk
 
         /*
         View exerciseListButton = this.findViewById(R.id.exercise_list);
