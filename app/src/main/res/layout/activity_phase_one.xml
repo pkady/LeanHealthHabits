@@ -6,6 +6,12 @@
     android:orientation="vertical"
     tools:context="com.leanhealhabits.workouts.workouts.MainActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:textStyle="bold"
+        android:text="Week 1" />
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
@@ -14,24 +20,19 @@
         android:layout_weight="1"
         android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="0"
-            android:text="Wk \n 1" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/phase_one_wk_one_lb_one"
             android:layout_weight="1"
-            android:text="LB  1" />
+            android:text="LB 1" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/phase_one_wk_one_ub_one"
             android:layout_weight="1"
-            android:text="UB  1" />
+            android:text="UB 1" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -43,13 +44,13 @@
             android:layout_height="match_parent"
             android:id="@+id/phase_one_wk_one_lb_two"
             android:layout_weight="1"
-            android:text="LB  2" />
+            android:text="LB 2" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/phase_one_wk_one_ub_two"
             android:layout_weight="1"
-            android:text="UB  2" />
+            android:text="UB 2" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -59,11 +60,17 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/phase_one_wk_one_choice"
+            android:id="@+id/phase_one_wk_one_interval"
             android:layout_weight="1"
-            android:text="Choice" />
+            android:text="INT" />
 
     </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:textStyle="bold"
+        android:text="Week 2" />
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
@@ -72,24 +79,20 @@
         android:layout_weight="1"
         android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="0"
-            android:text="Wk  \n 2" />
+
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/phase_one_wk_two_lb_one"
             android:layout_weight="1"
-            android:text="LB  1" />
+            android:text="LB 1" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/phase_one_wk_two_ub_one"
             android:layout_weight="1"
-            android:text="UB  1" />
+            android:text="UB 1" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -101,13 +104,13 @@
             android:layout_height="match_parent"
             android:id="@+id/phase_one_wk_two_lb_two"
             android:layout_weight="1"
-            android:text="LB  2" />
+            android:text="LB 2" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/phase_one_wk_two_ub_two"
             android:layout_weight="1"
-            android:text="UB  2" />
+            android:text="UB 2" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -119,9 +122,17 @@
             android:layout_height="match_parent"
             android:id="@+id/phase_one_wk_two_choice"
             android:layout_weight="1"
-            android:text="Choice" />
+            android:text="INT" />
 
     </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:textStyle="bold"
+        android:text="Week 3" />
+
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
@@ -129,24 +140,20 @@
         android:layout_weight="1"
         android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="0"
-            android:text="Wk \n 3" />
+
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/phase_one_wk_three_lb_one"
             android:layout_weight="1"
-            android:text="LB  1" />
+            android:text="LB 1" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/phase_one_wk_three_ub_one"
             android:layout_weight="1"
-            android:text="UB  1" />
+            android:text="UB 1" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -158,13 +165,13 @@
             android:layout_height="match_parent"
             android:id="@+id/phase_one_wk_three_lb_two"
             android:layout_weight="1"
-            android:text="LB  2" />
+            android:text="LB 2" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/phase_one_wk_three_ub_two"
             android:layout_weight="1"
-            android:text="UB  2" />
+            android:text="UB 2" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -176,9 +183,17 @@
             android:layout_height="match_parent"
             android:id="@+id/phase_one_wk_three_choice"
             android:layout_weight="1"
-            android:text="Choice" />
+            android:text="INT" />
 
     </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:textStyle="bold"
+        android:text="Week 4" />
+
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
@@ -187,24 +202,19 @@
         android:layout_weight="1"
         android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="0"
-            android:text="Wk \n 4" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/phase_one_wk_four_lb_one"
             android:layout_weight="1"
-            android:text="LB  1" />
+            android:text="LB 1" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/phase_one_wk_four_ub_one"
             android:layout_weight="1"
-            android:text="UB  1" />
+            android:text="UB 1" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -216,13 +226,13 @@
             android:layout_height="match_parent"
             android:id="@+id/phase_one_wk_four_lb_two"
             android:layout_weight="1"
-            android:text="LB  2" />
+            android:text="LB 2" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/phase_one_wk_four_ub_two"
             android:layout_weight="1"
-            android:text="UB  2" />
+            android:text="UB 2" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -234,9 +244,16 @@
             android:layout_height="match_parent"
             android:id="@+id/phase_one_wk_four_choice"
             android:layout_weight="1"
-            android:text="Choice" />
+            android:text="INT" />
 
     </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:textStyle="bold"
+        android:text="Week 5" />
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
@@ -245,24 +262,20 @@
         android:layout_weight="1"
         android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="0"
-            android:text="Wk \n 5" />
+
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/phase_one_wk_five_lb_one"
             android:layout_weight="1"
-            android:text="LB  1" />
+            android:text="LB 1" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/phase_one_wk_five_ub_one"
             android:layout_weight="1"
-            android:text="UB  1" />
+            android:text="UB 1" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -274,13 +287,13 @@
             android:layout_height="match_parent"
             android:id="@+id/phase_one_wk_five_lb_two"
             android:layout_weight="1"
-            android:text="LB  2" />
+            android:text="LB 2" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/phase_one_wk_five_ub_two"
             android:layout_weight="1"
-            android:text="UB  2" />
+            android:text="UB 2" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -292,9 +305,16 @@
             android:layout_height="match_parent"
             android:id="@+id/phase_one_wk_five_choice"
             android:layout_weight="1"
-            android:text="Choice" />
+            android:text="INT" />
 
     </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:textStyle="bold"
+        android:text="Week 6" />
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
@@ -303,24 +323,20 @@
         android:layout_weight="1"
         android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="0"
-            android:text="Wk \n 6" />
+
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/phase_one_wk_six_lb_one"
             android:layout_weight="1"
-            android:text="LB  1" />
+            android:text="LB 1" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/phase_one_wk_six_ub_one"
             android:layout_weight="1"
-            android:text="UB  1" />
+            android:text="UB 1" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -332,13 +348,13 @@
             android:layout_height="match_parent"
             android:id="@+id/phase_one_wk_six_lb_two"
             android:layout_weight="1"
-            android:text="LB  2" />
+            android:text="LB 2" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/phase_one_wk_six_ub_two"
             android:layout_weight="1"
-            android:text="UB  2" />
+            android:text="UB 2" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -350,7 +366,7 @@
             android:layout_height="match_parent"
             android:id="@+id/phase_one_wk_six_choice"
             android:layout_weight="1"
-            android:text="Choice" />
+            android:text="INT" />
 
     </LinearLayout>
 

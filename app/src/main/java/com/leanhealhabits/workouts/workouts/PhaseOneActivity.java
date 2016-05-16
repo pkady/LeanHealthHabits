@@ -30,8 +30,8 @@ public class PhaseOneActivity extends AppCompatActivity implements View.OnClickL
         View phaseOneWkOneARTwoButton = this.findViewById(R.id.phase_one_wk_one_ar_two);
         phaseOneWkOneARTwoButton.setOnClickListener(this);
 
-        View phaseOneWkOneChoiceButton = this.findViewById(R.id.phase_one_wk_one_choice);
-        phaseOneWkOneChoiceButton.setOnClickListener(this);
+        View phaseOneWkOneIntervalButton = this.findViewById(R.id.phase_one_wk_one_interval);
+        phaseOneWkOneIntervalButton.setOnClickListener(this);
     }
 
     public void onClick(View v) {
@@ -66,7 +66,7 @@ public class PhaseOneActivity extends AppCompatActivity implements View.OnClickL
                 startActivity(i);
                 break;
 
-            case R.id.phase_one_wk_one_choice:
+            case R.id.phase_one_wk_one_interval:
                 i = new Intent(this, PhaseOneIntervalsActivity.class);
                 startActivity(i);
                 break;
