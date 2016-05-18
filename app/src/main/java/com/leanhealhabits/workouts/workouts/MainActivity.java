@@ -15,9 +15,13 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         View exercisePhasesButton = this.findViewById(R.id.exercise_phases);
         exercisePhasesButton.setOnClickListener(this);
-//kkkk
+
+        View fourHourBodyButton = this.findViewById(R.id.fourhourbody);
+        fourHourBodyButton.setOnClickListener(this);
+
 
         /*
         View exerciseListButton = this.findViewById(R.id.exercise_list);
@@ -36,9 +40,16 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 
 /**/
     public void onClick(View v) {
+        Intent i;
         switch (v.getId()) {
+
             case R.id.exercise_phases:
-                Intent i = new Intent(this, ExercisePhasesActivity.class);
+                i = new Intent(this, ExercisePhasesActivity.class);
+                startActivity(i);
+                break;
+
+            case R.id.fourhourbody:
+                i = new Intent(this, FourHourBodyActivity.class);
                 startActivity(i);
                 break;
 

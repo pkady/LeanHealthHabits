@@ -23,6 +23,7 @@
         <activity android:name=".PhaseOneUB2Activity" />
         <activity android:name=".PhaseOneARActivity" />
         <activity android:name=".PhaseOneIntervalsActivity" />
+        <activity android:name=".FourHourBodyActivity"></activity>
     </application>
 
 </manifest>
