@@ -19,19 +19,15 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
         View exercisePhasesButton = this.findViewById(R.id.exercise_phases);
         exercisePhasesButton.setOnClickListener(this);
 
-        View fourHourBodyButton = this.findViewById(R.id.fourhourbody);
-        fourHourBodyButton.setOnClickListener(this);
-
-
-        /*
         View exerciseListButton = this.findViewById(R.id.exercise_list);
         exerciseListButton.setOnClickListener(this);
 
+        View fourHourBodyButton = this.findViewById(R.id.fourhourbody);
+        fourHourBodyButton.setOnClickListener(this);
+
+        /*
         View habitsListButton = this.findViewById(R.id.habits_list);
         habitsListButton.setOnClickListener(this);
-
-        View videosButton = this.findViewById(R.id.videos);
-        videosButton.setOnClickListener(this);
    */
 
 
@@ -52,6 +48,12 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
                 i = new Intent(this, FourHourBodyActivity.class);
                 startActivity(i);
                 break;
+
+            case R.id.exercise_list:
+                i = new Intent(this, ExerciseListActivity.class);
+                startActivity(i);
+                break;
+
 
             //Additional buttons go heere
         }
