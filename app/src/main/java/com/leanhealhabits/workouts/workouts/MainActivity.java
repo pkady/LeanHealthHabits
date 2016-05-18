@@ -1,6 +1,7 @@
 package com.leanhealhabits.workouts.workouts;
 
 import android.app.Activity;
+import android.app.ListActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.Intent;
@@ -25,10 +26,10 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
         View fourHourBodyButton = this.findViewById(R.id.fourhourbody);
         fourHourBodyButton.setOnClickListener(this);
 
-        /*
+
         View habitsListButton = this.findViewById(R.id.habits_list);
         habitsListButton.setOnClickListener(this);
-   */
+
 
 
     }
@@ -54,7 +55,10 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
                 startActivity(i);
                 break;
 
-
+            case R.id.habits_list:
+                i = new Intent(this, HabitsListActivity.class);
+                startActivity(i);
+                break;
             //Additional buttons go heere
         }
     }

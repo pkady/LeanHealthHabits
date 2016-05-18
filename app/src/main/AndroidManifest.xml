@@ -24,7 +24,8 @@
         <activity android:name=".PhaseOneARActivity" />
         <activity android:name=".PhaseOneIntervalsActivity" />
         <activity android:name=".FourHourBodyActivity" />
-        <activity android:name=".ExerciseListActivity"></activity>
+        <activity android:name=".ExerciseListActivity" />
+        <activity android:name=".HabitsListActivity"></activity>
     </application>
 
 </manifest>
